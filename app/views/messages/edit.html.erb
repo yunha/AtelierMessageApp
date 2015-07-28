@@ -1,0 +1,9 @@
+<%= form_for [@user, @message] do |f| %>
+  <div class="form-group">
+  	<%= f.label :receiver_number %>
+    <%= f.text_field :receiver_number, class: "form-control" %>
+    <%= f.label :content %>
+    <%= f.text_area :content, class: "form-control" %>
+  </div>
+  <%= f.submit "Create", class: "btn btn-primary" %>
+<% end %>

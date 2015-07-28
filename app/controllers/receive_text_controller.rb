@@ -1,0 +1,2 @@
+class ReceiveTextController < ApplicationController
+end
